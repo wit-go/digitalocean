@@ -11,6 +11,7 @@ github:
 	@echo check https://github.com/wit-go/gui
 	@echo
 
-#	git push -u github master
-#	git push -u github devel
-#	git push github --tags
+init-github:
+	git push -u github master
+	git push -u github devel
+	git push github --tags
